@@ -1,4 +1,4 @@
-Confs & Script
+Configs & Scripts
 ==============
 
 + config.yml => flexget config
