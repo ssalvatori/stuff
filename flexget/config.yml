@@ -54,6 +54,7 @@ templates:
         - Vikings
         - Cosmos A Space-Time Odyssey
 
+          
     clean_transmission:
       host: localhost
       port: 9091
@@ -61,11 +62,17 @@ templates:
       password: transmission
       min_ratio: 1
 
+    transmission:
+      host: localhost
+      port: 9091
+      username: transmission
+      password: transmission
+
    #mark acquired in trak.tv
     trakt_add:
-      username: 
-      api_key: 
-      password: 
+      username: username
+      api_key: APIKEY
+      password: pass
       list: library
 
 tasks:
